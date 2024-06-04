@@ -31,7 +31,7 @@ I have tested the app today (June 2024) in Windows 11 with DosBox emulator which
 ## Screenshots 
 Below are screenshots of the various screens in the application. 
 
-![Main Menu](screenshots/mainmenu.png "Main Menu")
+![Main Menu](screenshots/MainMenu.png "Main Menu")
 
 ![Trip sheets](screenshots/TripSheets.png "Trip Sheets")
 
@@ -39,7 +39,7 @@ Below are screenshots of the various screens in the application.
 
 ![Booking](screenshots/Booking.png "Booking")
 
-![Address Book](screenshots/AddressBook.png "Address Book")
+![Address Book](screenshots/Addressbook.png "Address Book")
 
 ![Customer Master](screenshots/CustomerMaster.png "Customer Master")
 
