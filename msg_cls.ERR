@@ -1,0 +1,176 @@
+/*
+Error in line 1: Unrecognized command verb.
+#xtranslate :MsgTitle    =>     \[MSGTITLE\]
+Error in line 118: Syntax error.
+#xtranslate :MsgText	 =>     \[MSGTEXT\]
+Error in line 120: Syntax error.
+#xtranslate :MsgBox 	 => 	\[MSGBOX\]
+Error in line 122: Syntax error.
+#xtranslate :WndTitle    =>     \[WNDTITLE\]
+Error in line 126: Syntax error.
+#xtranslate :WndText	 =>     \[WNDTEXT\]
+Error in line 128: Syntax error.
+#xtranslate :WndBox 	 => 	\[WNDBOX\]
+Error in line 130: Syntax error.
+#xtranslate :TitleBar    =>     \[TITLEBAR\]
+Error in line 134: Syntax error.
+#xtranslate :HelpLine    =>     \[HELPLINE\]
+Error in line 136: Syntax error.
+#xtranslate :MenuText1 	 => 	\[MENUTEXT1\]
+Error in line 140: Syntax error.
+#xtranslate :MenuText2   =>     \[MENUTEXT2\]
+Error in line 142: Syntax error.
+#xtranslate :MenuBox   	 =>     \[MENUBOX\]
+Error in line 144: Syntax error.
+#xtranslate :Desktop	 =>     \[DESKTOP\]
+Error in line 148: Syntax error.
+#xtranslate :WorkSpace 	 => 	\[WORKSPACE\]
+Error in line 150: Syntax error.
+#xtranslate :ShowScr     =>     \[SHOWSCR\]
+Error in line 154: Syntax error.
+#xtranslate :EditScr     =>     \[EDITSCR\]
+Error in line 156: Syntax error.
+#xtranslate :Buttons1	 =>     \[BUTTONS1\]
+Error in line 160: Syntax error.
+#xtranslate :Buttons2	 =>     \[BUTTONS2\]
+Error in line 162: Syntax error.
+#xtranslate :ScrollBar 	 => 	\[SCROLLBAR\]
+Error in line 166: Syntax error.
+#xtranslate :HelpText    =>     \[HELPTEXT\]
+Error in line 168: Syntax error.
+#xtranslate :HelpBox     =>     \[HELPBOX\]
+Error in line 170: Syntax error.
+#xtranslate :MenuText    =>    \[MENUTEXT\] 
+Error in line 174: Syntax error.
+#xtranslate :Buttons     =>    \[BUTTONS\]
+Error in line 176: Syntax error.
+#xtranslate :ColorChange =>     \[COLORCHANGE\]
+Error in line 180: Syntax error.
+#xtranslate APPLY <a>:<b> ([<c>] [,<d>] [,<e>] )  => EVAL (<a>:<b>[,<c>] [,<d>] [,<e>] )
+Error in line 35: Syntax error.
+#xtranslate :PushRow		=>	\[1\]
+Error in line 58: Syntax error.
+#xtranslate :PushCol		=>	\[2\]
+Error in line 60: Syntax error.
+#xtranslate :PushDefault	=>	\[3\]
+Error in line 62: Syntax error.
+#xtranslate :PushButtons 	=>	\[4\]
+Error in line 64: Syntax error.
+#xtranslate :PushShow           =>      \[5\]
+Error in line 66: Syntax error.
+#xtranslate :ShaShow  	=> \[SHA_SHOW\]
+Error in line 66: Syntax error.
+#xtranslate :ShaKill    => \[SHA_KILL\]
+Error in line 68: Syntax error.
+#xtranslate :ShaTop  	=> \[SHA_TOP\]
+Error in line 70: Syntax error.
+#xtranslate :ShaLeft    => \[SHA_LEFT\]
+Error in line 72: Syntax error.
+#xtranslate :ShaRight  	=> \[SHA_RIGHT\]
+Error in line 74: Syntax error.
+#xtranslate :ShaBottom  => \[SHA_BOTTOM\]
+Error in line 76: Syntax error.
+#xtranslate :ShaScreen 	=> \[SHA_SCREEN\]
+Error in line 78: Syntax error.
+#xtranslate :ShaColor   => \[SHA_COLOR\]
+Error in line 80: Syntax error.
+#xtranslate :MsgTitle   => \[MSG_TITLE\]
+Error in line 70: Syntax error.
+#xtranslate :MsgText    => \[MSG_TEXT\]
+Error in line 72: Syntax error.
+#xtranslate :MsgDefault => \[MSG_DEFAULT\]
+Error in line 74: Syntax error.
+#xtranslate :MsgButtons => \[MSG_BUTTONS\]
+Error in line 76: Syntax error.
+#xtranslate :MsgShow    => \[MSG_SHOW\]
+Error in line 78: Syntax error.
+#include "Box.Ch"
+Error in line 32: File does not exist.
+oMsg:1     := ""
+Error in line 36: Unrecognized command verb.
+oMsg:2      := {}
+Error in line 37: Unrecognized command verb.
+oMsg:MsgDefault   := 1
+Error in line 38: Unrecognized command verb.
+oMsg:MsgButtons   := {'Ok'}
+Error in line 39: Unrecognized command verb.
+oMsg:MsgShow      := { |o| Show (o)}
+Error in line 40: Unrecognized command verb.
+STATIC FUNCTION Show (oMsg)
+Error in line 43: Unrecognized command verb.
+LOCAL oColor   := NewColor ()
+Error in line 45: Syntax error.
+LOCAL oPush    := NewPush ()
+Error in line 46: Syntax error.
+LOCAL long:=0, lines:=0, temp:=0, t:=0, l:=0 , r:=0, b:=0
+Error in line 47: Syntax error.
+// find the total width occupied by the 18 
+Error in line 49: Unrecognized command verb.
+AEVAL ( oMsg:MsgButtons, {|x| temp := temp+LEN(x)} )  
+Error in line 50: Function name is missing ).
+temp  += LEN (oMsg:MsgButtons) * 6
+Error in line 51: Unrecognized command verb.
+// find the largest message string, & between Title and 18 width
+Error in line 53: Unrecognized command verb.
+AEVAL ( oMsg:2, { |x| long := MAX (long, LEN(x))})
+Error in line 54: Function name is missing ).
+long := MAX (long, LEN(oMsg:1))
+Error in line 55: Unrecognized command verb.
+long := MAX (long, temp)
+Error in line 56: Unrecognized command verb.
+long += 2 + 4	
+Error in line 58: Unrecognized command verb.
+l := INT((79-long)/2)
+Error in line 59: Unrecognized command verb.
+lines := LEN(oMsg:2)
+Error in line 61: Unrecognized command verb.
+lines := IIF ( oMsg:1 == "", lines, lines+1) + 4
+Error in line 63: Unrecognized command verb.
+t := INT((24-lines)/2)
+Error in line 65: Unrecognized command verb.
+b := t+lines; r := l + long
+Error in line 67: Unrecognized command verb.
+// save the screen and colors inside NewShadow & create a shadow object
+Error in line 69: Unrecognized command verb.
+oShadow := NewShadow (t,l,b,r) 
+Error in line 70: Unrecognized command verb.
+// display the shadow
+Error in line 71: Unrecognized command verb.
+APPLY oShadow:ShaShow(oShadow)	  
+Error in line 72: Unrecognized command verb.
+IF LEN(oMsg:1) != 0
+Error in line 74: Function name is missing ).
+SETCOLOR (oColor:1)
+Error in line 75: Function name is missing ).
+@ t,l SAY oMsg:1
+Error in line 77: Command contains unrecognized phrase/keyword.
+t++
+Error in line 78: Unrecognized command verb.
+// draw a box around the message box and clear its contents
+Error in line 81: Unrecognized command verb.
+SETCOLOR (oColor:3)
+Error in line 82: Function name is missing ).
+DISPBOX (t++,l++,b,r,B_SINGLE)
+Error in line 83: Missing operand.
+// write all the text elements from array into the msg box
+Error in line 85: Unrecognized command verb.
+SETCOLOR (oColor:2)
+Error in line 86: Function name is missing ).
+AEVAL (oMsg:2, { |x| SETPOS(t++,l+1),DEVOUT(x)})
+Error in line 88: Function name is missing ).
+// call the push button class for displaying 18
+Error in line 90: Unrecognized command verb.
+oPush:PushRow     := t + 2
+Error in line 91: Unrecognized command verb.
+oPush:PushCol     := INT ((long - temp) /2) + l
+Error in line 92: Unrecognized command verb.
+oPush:PushDefault := oMsg:MsgDefault
+Error in line 93: Unrecognized command verb.
+oPush:PushButtons := oMsg:MsgButtons	
+Error in line 94: Unrecognized command verb.
+temp := APPLY oPush:PushShow(oPush)
+Error in line 96: Unrecognized command verb.
+// clear the shadow and restore screen contents
+Error in line 98: Unrecognized command verb.
+APPLY oShadow:ShaKill (oShadow)		 
+Error in line 99: Unrecognized command verb.

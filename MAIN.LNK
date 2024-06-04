@@ -1,0 +1,4 @@
+FILE MAIN,CLR_CLS,STK_CLS,MSG_CLS,FORM_CLS,PUSH_CLS,SHAD_CLS,Tail_Cls,Sys_Cls,list_cls,menu_cls,prn_cls, RDDSYS
+FILE StdFares, VehType, Client, Tripmas, Booking, Fare_Cls, Biller,fig2word, accounts, address
+LIB DBFCDX,CLD
+Output Alankar

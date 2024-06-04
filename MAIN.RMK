@@ -1,0 +1,29 @@
+.Prg.Obj:
+        Clipper $* /m/n/a/w/b
+        
+Form_Cls.Obj    : Form_Cls.Prg
+Clr_Cls.Obj     : Clr_Cls.Prg
+MAIN.obj        : MAIN.prg
+Sys_Cls.Obj     : Sys_Cls.prg
+List_Cls.obj    : LIST_CLS.prg
+Tail_Cls.Obj    : Tail_Cls.Prg
+Stk_Cls.Obj     : Stk_Cls.Prg
+Push_Cls.Obj    : Push_Cls.Prg
+Msg_Cls.Obj     : Msg_Cls.Prg
+Shad_Cls.Obj    : Shad_Cls.Prg
+Menu_Cls.obj    : Menu_cls.prg
+Prn_Cls.Obj     : Prn_Cls.Prg
+RddSys.Obj      : RddSys.Prg
+Stdfares.Obj    : StdFares.Prg
+VehType.Obj     : VehType.Prg
+Client.Obj      : Client.Prg
+Tripmas.obj     : Tripmas.Prg
+Booking.Obj     : Booking.Prg
+Fare_Cls.Obj    : Fare_Cls.Prg
+Biller.Obj      : Biller.Prg
+fig2word.obj    : Fig2word.prg
+accounts.obj    : accounts.prg
+address.obj     : address.prg
+MAIN.EXE        : Main.obj clr_cls.obj stk_cls.obj msg_cls.obj form_cls.obj push_cls.obj shad_cls.obj list_cls.obj Tail_Cls.obj Sys_Cls.obj menu_cls.obj prn_cls.obj StdFares.Obj VehType.obj client.obj tripmas.obj booking.obj Fare_Cls.Obj Biller.Obj fig2word.obj accounts.obj address.obj
+      RtLink @Main.Lnk
+      

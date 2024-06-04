@@ -1,0 +1,54 @@
+CON. NO: xxxxxx 
+DATE   : xx/xx/xx
+
+OUTSTATION
+----------
+(__ Days) 
+Cost for ___ Kms.   : Rs.xxxxx.xx
+Night Halt Charges  : Rs.xxxxx.xx
+Permit Charges      : Rs.xxxxx.xx
+Misc.  Charges      : Rs.xxxxx.xx
+                    ===============
+Total Amount        : Rs.XXXXX.XX
+                    ===============
+
+SPLIT RATE 
+----------
+Hiring Charges for ___ Hrs.    : Rs.xxxxx.xx
+Fuel cost                      : Rs.xxxxx.xx
+Ext. Km Charges                : Rs.xxxxx.xx
+Misc. Charges                  : Rs.xxxxx.xx
+                               ===============
+Total Amount                   : Rs.XXXXX.XX
+                               ===============
+
+FLAT RATE 
+----------
+Charges for ___ Hrs.           : Rs.xxxxx.xx
+Ext. Km Charges                : Rs.xxxxx.xx
+Misc. Charges                  : Rs.xxxxx.xx
+                               ===============
+Total Amount                   : Rs.XXXXX.XX
+                               ===============
+
+(for the Car engaged by you, as per our C.O. forms enclosed.)
+
+
+
+
+
+Customer Name
+==============
+from xx/xx/xx to xx/xx/xx
+
+                            Received             Bills
+                            (in Rupees)          (in Rupees)
+
+Cheque No:AAAAAA             xxxxx.xx
+Bill.No:xxxx                                      yyyyy.yy
+
+                            ==============================
+Total                       XXXXX.XX            YYYYY.YY
+                            ==============================
+
+Amount Due =                XXXXX.XX - YYYYY.YY
